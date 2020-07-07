@@ -14,6 +14,7 @@ All notable changes to the "emacs-mcx" extension will be documented in this file
 
 ## [0.19.10] - Unreleased
 - Assign `Enter` key to close the find widget, which is like the original Emacs' behavior.
+- `killWholeLine` config option.
 
 ## [0.19.9] - 2020-07-02
 - Fix `M-w` behavior when the find widget is visible. @youyuanwu
