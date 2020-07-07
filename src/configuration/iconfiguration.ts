@@ -20,6 +20,7 @@ export interface IDebugConfiguration {
 
 export interface IConfiguration {
   killRingMax: number;
+  markRingMax: number;
 
   /**
    * Simulate strictly the original emacs's cursor movements or preserve VSCode's native ones

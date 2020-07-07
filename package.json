@@ -1261,6 +1261,11 @@
 				"when": "editorTextFocus && config.emacs-mcx.useMetaPrefixEscape"
 			},
 			{
+				"key": "ctrl+x ctrl+x",
+				"command": "emacs-mcx.exchangePointAndMark",
+				"when": "editorTextFocus"
+			},
+			{
 				"key": "ctrl+'",
 				"command": "editor.action.triggerSuggest",
 				"when": "editorTextFocus"
